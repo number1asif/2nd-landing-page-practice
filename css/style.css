@@ -1,0 +1,294 @@
+/* Global CSS */
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script|Montserrat:100,200,300,400,500,600,700,800,900|Roboto:100,300,400,500,700,900');
+body{
+	font-family: 'Roboto', sans-serif;
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Kaushan Script', cursive; */
+background-color: #f8f9fa;
+}
+section{
+	padding: 150px 0px;
+}
+.row{
+    padding: 20px 0px;
+}
+/* Header Section */
+.navbar-brand{
+	color: #fed136 !important;
+	font-family: 'Kaushan Script', cursive; 
+	font-size: 24px;
+}
+/* Banner Section */
+.banner{
+	background:url(../img/header-bg.jpg);
+	background-size: cover;
+	height: 100vh;
+	color: #fff;
+	padding: 250px 0px;
+
+}
+.banner h3{
+	font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    padding: 15px 0px;
+}
+.banner h1{
+	font-size: 84px;
+    font-weight: 500;
+}
+.banner .btn{
+	background-color: #fed136;
+    border-color: #fed136;
+    padding: 20px 40px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 30px 0px;
+    -webkit-transition: ease 0.4s all;
+    -moz-transition: ease 0.4s all;
+    -o-transition: ease 0.4s all;
+    transition: ease 0.4s all;
+}
+.banner .btn:hover{
+	background-color: #fec810;
+	border-color: #fec810;
+}
+/* Service Section */
+.service h1{
+	font-size: 47px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+.service h4{
+	font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+    color: #6c757d;
+    padding-bottom: 50px;
+}
+.service .fa{
+	background-color: #fed136;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 42px;
+    line-height: 120px;
+    color: #fff;
+}
+.service h2{
+	font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 20px 0px 5px;
+}
+.service p{
+	font-size:16px;
+	color: #6c757d; 
+}
+/* Portfolio Section */
+.portfolio h1{
+	font-size: 47px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+.portfolio h4{
+	font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    color: #6c757d;
+    padding-bottom: 50px;
+}
+.portfolio-item{
+	background-color: #fff;
+	margin-bottom: 50px;
+}
+.portfolio-item h2{
+	padding: 15px 0px 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.portfolio-item p{
+	font-size: 16px;
+    font-style: italic;
+    color: #6c757d;
+    padding-bottom:15px;  
+}
+/* About Section */
+.about h1{
+	font-size: 47px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+.about h4{
+	font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    color: #6c757d;
+    padding-bottom: 50px;
+}
+.about h2{
+	padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-align: right;
+}
+.about p{
+	padding-top:10px; 
+	font-size: 16px;
+    color: #6c757d;
+    padding-bottom:15px;
+    text-align:right;
+}
+.timeline-image{
+	height: 170px;
+	width: 170px;
+	border-radius: 100%;
+	background-color: #cfcfcf;
+	padding: 6px;
+}
+.timeline-image img{
+	border-radius: 100%;
+}
+.pull-left h2{
+	text-align: left;
+}
+.pull-left p{
+	text-align: left;
+}
+.timline-image{
+    position: relative;
+}
+.timeline-image p{
+	background-color: #fed136;
+    width: 83%;
+    height: 91%;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 24px;
+    padding-top: 55px;
+    color: #fff;
+    position: absolute;
+
+}
+/* Team Section */
+.team h1{
+	font-size: 47px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+}
+.team h4{
+	font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+    color: #6c757d;
+    padding-bottom: 50px;
+}
+.team-item img{
+	height: 250px;
+	width: 250px;
+	border-radius: 100%;
+	background-color: #fff;
+	padding: 8px;
+}
+.team-item h2{
+	padding: 15px 0px 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.team-item p{
+	font-size: 20px;
+    color: #6c757d;
+    padding-bottom:10px;  
+}
+.team-item .fa{
+	background-color: #212529;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 28px;
+    line-height: 50px;
+    color: #fff;
+}
+.team-item{
+	padding-bottom: 50px;
+}
+.team h4{
+	font-size: 18px;
+    font-weight: 400;
+    color: #6c757d;
+    padding: 25px 180px
+}
+/* Py-5 Section CSS */
+.py-5{
+    background-color: #fff;
+}
+/* Contact Section CSS */
+.contact{
+    padding: 30px !important;
+}
+.contact{
+    background:url(../img/background-3228704_1920.jpg);
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    padding: 250px 0px;
+
+}
+.contact h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #fff;
+}
+.contact p{
+    font-size: 20px;
+    color: #6c757d;
+    padding-bottom:10px;  
+}
+.comment-area{
+    width: 100%;
+    padding: 30px !important;
+}
+.comment-area form{
+    
+}
+.comment-area input {
+   width: 100%;
+    height: 50px;
+    font-size: 24px;
+    background-color: #fff;
+    border-color: #b0b0b1;
+    border-radius: 2%;
+    margin-bottom: 20px;
+}
+.massage{
+
+}
+.send-btn{
+    width: 20% !important;
+    height: 60px !important;
+   background-color: #fed136 !important;
+    border-color: #fed136;
+    padding: 0px 15px;
+    text-transform: uppercase;
+    padding-bottom: 10px; 
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    -webkit-transition: ease 0.4s all;
+    -moz-transition: ease 0.4s all;
+    -o-transition: ease 0.4s all;
+    transition: ease 0.4s all;
+}
+.send-btn:hover{
+    background-color: #fec810;
+    border-color: #fec810;
+/* Footer Section CSS*/
